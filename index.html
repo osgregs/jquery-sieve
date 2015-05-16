@@ -61,6 +61,11 @@ $(document).ready(function() {
 $(document).ready(function() {
   $("section.sieve").sieve({ itemSelector: "p" });
 }); </pre>
+or
+        <pre>
+$(document).ready(function() {
+  $("section.sieve").sieve({ searchInput: $("select#myid"),itemSelector: "p" });
+}); </pre>
       </div>
     </div>
     <p>In either case, Sieve will insert a search box before the content
